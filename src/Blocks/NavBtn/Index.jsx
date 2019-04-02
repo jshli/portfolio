@@ -14,6 +14,7 @@ const NavButton = styled.div `
     flex-direction: column;
     >p {
         margin-top: 0;
+        font-family: 'Muli', sans-serif;
     }
 `
 
