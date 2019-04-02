@@ -9,6 +9,7 @@ import Container from "./Elements/Container"
 import PortfolioItem from "./Blocks/PortfolioItem/Index"
 
 
+
 const portfolio = [
     {
         name: "Geshido",
@@ -30,7 +31,7 @@ const portfolio = [
         ],
         description: "Niche is an online learning platform dedicated to teaching high-school students the necessary skills to succeed in their VCE Exams. Niche is a startup I have helped co-found.",
         link: "http://meetniche.com/",
-        imgUrl: "/images/business-close-up-college-1764956-compressor.jpg"
+        imgUrl: "/images/beverage-books-caffeine-904616-compressor.jpg"
     },
     {
         name: "Breathe",
@@ -101,6 +102,7 @@ export default function Work(props) {
     
     return (
             <section onWheel={handleScroll}>
+
                 <WorkNav>
                     {portfolio.map((item, index) => {
                         return (

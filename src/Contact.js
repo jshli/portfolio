@@ -5,6 +5,7 @@ import Main from "./Elements/Main"
 import ContactContainer from "./Blocks/Contact/Index"
 import ContentGrid from "./Elements/ContentGrid"
 
+
 export default function Contact(props) {
     return (
             <section>

@@ -22,8 +22,7 @@ main, .main {
 }
 
 .main__grid--grey {
-  color: white;
-  background-color: #272727
+
 }
 
 .image {
@@ -102,6 +101,10 @@ h1 {
   font-size: 2rem;
   line-height: 1.5em;
   margin: 1.5rem 0;
+}
+
+.fa-react {
+  color: #60DAFB
 }
 
 h1 > span {

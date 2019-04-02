@@ -6,10 +6,12 @@ import { useSpring, animated } from 'react-spring'
 import Sidebar from './Sidebar'
 import Background from "./Elements/Background"
 
+
 export default function Home(props) {
 
     return (
         <main>
+
             <Background/>
             <Sidebar side={"left"}/>
             <section className="hero">

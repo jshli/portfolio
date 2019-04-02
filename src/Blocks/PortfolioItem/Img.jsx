@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 const Img = styled.div `
     width: 100%;
-    height: 40rem;
+    height: 30rem;
     background-image: url(${props => props.imgUrl});
     background-size: cover;
     background-repeat: no-repeat;
