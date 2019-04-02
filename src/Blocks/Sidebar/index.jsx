@@ -7,7 +7,9 @@ import Circle from "./Circle"
 const StyledSidebar = styled.div `
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: ${props => props.side === "left" ? 'left' : 'flex-end'};
+    padding-left: ${props => props.side === "left" ? "1.5rem" : 0};
+    padding-right: ${props => props.side === "right" ? "1.5rem" : 0};
     align-items: center;
     flex-direction: row;
     > p {

@@ -13,7 +13,7 @@ export default function About(props) {
                     <p>I'm a Melbourne-based front-end developer, designer, and co-founder of edutech startup, Niche. </p>
                     <p>Throughout my time, I've worked with amazing founders, startups and agencies from all around the world, helping them grow by building new products through lean, rapid prototyping, design-thinking and growth-driven web design.</p>
                     <p>If you're interested in building something awesome, or just felt like chatting, drop me a line.</p>
-                    <p><b>What I do:</b></p>
+                    <h4>What I do:</h4>
                     <div className = "main__grid">
                         <div>
                             <p>HTML, CSS, Javscript</p>

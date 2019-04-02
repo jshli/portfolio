@@ -8,7 +8,7 @@ const Circle = styled(animated.div) `
 
     background-color: transparent;
     &:hover {
-        box-shadow: 0 0 20px black
+        box-shadow: 0 0 10px black
     }
 `
 

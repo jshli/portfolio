@@ -7,7 +7,7 @@ import WorkNav from "./Blocks/WorkNav/Index"
 import Main from "./Elements/Main"
 import Container from "./Elements/Container"
 import PortfolioItem from "./Blocks/PortfolioItem/Index"
-import ScrollDown from "./Blocks/ScrollDown/Index"
+
 
 const portfolio = [
     {
@@ -86,7 +86,7 @@ export default function Work(props) {
 
     const debounced = _.debounce(function(event){
         let currentIndex = getIndex()
-        console.log(currentIndex)
+        console.log(event)
         if (event.deltaY > 0) {
             if (currentIndex < portfolio.length-1) {
                 setCurrentItem(portfolio[currentIndex+1])
@@ -96,7 +96,7 @@ export default function Work(props) {
                 setCurrentItem(portfolio[currentIndex-1])
             }
         }
-    }, 40)
+    }, 100)
 
     
     return (
